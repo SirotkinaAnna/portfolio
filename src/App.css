@@ -18,3 +18,39 @@ footer a {
 a:hover {
   color: #06d6a0;
 }
+
+.header-my {
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 
+.about-me {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+} */
+.about-me article {
+  width: 75%;
+  font-size: x-large;
+}
+
+@media (max-width: 800px) {
+  .header-my {
+    width: 100%;
+    position: unset;
+  }
+
+  .about-me article {
+    width: 100%;
+    font-size: medium;
+  }
+
+  /* .about-me {
+    width: 100%;
+    position: unset;
+  } */
+}
