@@ -32,7 +32,7 @@ function PortfolioPage() {
         },
         {
             title: "REST countries API with color themes switcher",
-            link: "https://easybanklanding-lemon.vercel.app/",
+            link: "https://countriesapi-ruddy.vercel.app/",
             images: counrtiesArr,
             aboutText: "This project required me to build responsive REST countries Api to pull country data and display it like in design provided. It was a challenge from Frontend Mentor. I used Tailwind CSS to style elements and React Framework for the areas that required interactivity. Users are able to watch all countries from the API on the homepage, search for a country, click on a country to see detailed information, etc.",
             tags: "HTML/CSS/JS Tailwind/React",
