@@ -15,7 +15,9 @@ footer a {
   color: #eff7f6;
 }
 
-a:hover {
+a:hover,
+.tags,
+.btn-my:hover {
   color: #06d6a0;
 }
 
@@ -24,6 +26,18 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+/* div {
+  border: 1px solid black;
+} */
+
+.carousel-item {
+  height: min-content;
+}
+
+.carousel-item img {
+  height: 100%;
 }
 
 /* 
@@ -47,6 +61,10 @@ a:hover {
   .about-me article {
     width: 100%;
     font-size: medium;
+  }
+
+  .my-row {
+    height: 100%;
   }
 
   /* .about-me {
