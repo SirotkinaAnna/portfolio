@@ -26,10 +26,10 @@ function CarouselInner({ item }) {
 
 
 
-    return <div className="row my-row py-5">
-        <div className="col-md-6 border-end my-5">
-            <h3 className="py-3 text-center w-75 m-auto">{title}</h3>
-            <div className="w-75 mx-auto">
+    return <div className="row my-row py-md-5">
+        <div className="col-md-6 my-border my-2 my-md-5">
+            <h3 className="py-3 text-center my-width m-auto">{title}</h3>
+            <div className="my-width mx-auto">
                 <p>{aboutText}</p>
                 <p className="tags">{tags}</p>
                 <a className="btn btn-outline-dark my-5" href={link} target="_blank" rel="noreferrer" >Visit Website</a></div></div>

@@ -40,13 +40,14 @@ a:hover,
   height: 100%;
 }
 
-/* 
-.about-me {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 40%;
-} */
+.my-border {
+  border-right: 1px solid #ced4da;
+}
+
+.my-width {
+  width: 75%;
+}
+
 .about-me article {
   width: 75%;
   font-size: x-large;
@@ -67,8 +68,16 @@ a:hover,
     height: 100%;
   }
 
-  /* .about-me {
+  .my-border {
+    border: none;
+  }
+
+  .my-width {
     width: 100%;
-    position: unset;
-  } */
+  }
+
+  nav a,
+  footer a {
+    font-size: small;
+  }
 }
